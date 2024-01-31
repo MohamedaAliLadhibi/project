@@ -1,0 +1,311 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+    .item {
+    width: 300px; 
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .name {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .name-one {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 50px;
+    margin-bottom: 7px;
+  }
+  
+  .brand {
+    color: #363636;
+  }
+  .brand-one {
+    color: #363636;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .bt {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    bottom: 60px;
+    right:60px
+  }
+  .nav-bar.blue {
+    background-color: blue;
+    color: white;
+  }
+  
+  .nav-bar.blue nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10;
+  }
+  
+  .nav-bar.blue nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .nav-bar.pink {
+    background-color: pink;
+    color: white;
+  }
+  
+  .nav-bar.pink nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-bar.pink nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  .one-prod {
+    display:flex;
+    gap:50px
+  }
+  .one {
+    margin-top: 40px;
+  }
+  .image img {
+    width: 100%;
+    max-width: 200px; 
+    height: auto;
+    display: block; 
+    margin-top: 10px; 
+  }
+  .image-one img{
+    height: 500px;
+    display: block; 
+    margin-top: 10px; 
+  }
+  .title{
+    position: absolute;
+    top: 60px;
+    left:450px;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(237, 229, 229);
+    text-shadow: rgb(77, 13, 136) 4px 0 20px;
+  }
+.category-page {
+  display: flex;
+}
+ .male-div {
+  background-image:url(https://www.jeanpaulgaultier.com/us/sites/us/files/styles/s_c_960_1133/public/2022-02/Home-Page-Parfums-pour-Hommes-Categorie.png.jpg?itok=dSqPaOAh);
+  width: 750px;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .female-div {
+  background-image:url(https://www.jeanpaulgaultier.com/us/sites/us/files/styles/s_c_960_1133/public/2022-02/Home-page-Parfums-pour-Femme-Categorie.png.jpg?itok=G0B5YSRF);
+  width: 750px;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .male{
+  background-color: #eee;
+ border: none;
+ padding: 1rem;
+ font-size: 1rem;
+ width: 10em;
+ border-radius: 1rem;
+ color: rgb(20, 154, 163);
+ box-shadow: 0 0.4rem #8eb7dd;
+ cursor: pointer;
+ margin-top: 400px;
+
+}
+
+
+ .female{
+  background-color: #eee;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 10em;
+  border-radius: 1rem;
+  color: lightcoral;
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer;
+  margin-top: 400px;
+ }
+ 
+
+ .image-container {
+  display: flex;
+}
+/* 
+.image-container img {
+  width: 200px; 
+  height: auto; 
+  margin-right: 10px;
+} */
+
+
+
+
+  .one-prod {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+
+.one {
+  margin-left: 20px;
+}
+
+.name-one {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.divider {
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.brand-one {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.bt {
+  margin-top: 10px;
+}
+
+.delete-btn, .edit-btn {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+
+.delete-btn {
+  background-color: #ff6b6b;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.edit-btn {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.connn {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  position: absolute;
+  top: 6rem;
+  left:34rem
+}
+
+.titleee {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.nameee,
+.decriptionnn,
+.branddd,
+.priceee,
+.imageee {
+  margin-bottom: 15px;
+}
+
+.nameee input,
+.decriptionnn input,
+.branddd input,
+.priceee input,
+.imageee input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.imageee img {
+  display: block;
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+.buttt {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttt:hover {
+  background-color: #0056b3;
+}
+
+.backkk{
+  background-color: #efafff;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 10em;
+}
+.creaat{
+  background-color: #e6a3ff;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 8em;
+  border-radius: 8px;
+  border: #ffffff;
+}
+
+.grid-container{
+  display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    right: 8rem;
+    position: absolute;
+    top: 4rem;
+}
+
+.Details{
+  position: absolute;
+  top: 8rem;
+  left: 4rem;
+}
